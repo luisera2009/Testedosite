@@ -171,7 +171,7 @@ img{
     
     background: linear-gradient(45deg, white 50%, transparent 50%) left calc(50% + 20px) bottom no-repeat, 
                 linear-gradient(-45deg, white 50%, transparent 50%) left calc(50% - 20px) bottom no-repeat, 
-                url(/img/01.jpg);
+                url("https://c.pxhere.com/photos/8e/3e/keyboard_enter_enter_key_notebook_keys_computer_leave_input-935122.jpg!d");
     background-size: 40px 40px, 40px 40px, cover;
     background-position: center;
     background-repeat: no-repeat;
