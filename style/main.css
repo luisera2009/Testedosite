@@ -276,6 +276,10 @@ img{
     font-size: 14px;
     word-spacing: 3px;
 }
+
+.content h6{
+ color: #929da5;
+}
 .button{
     padding: 15px 40px;
     border-radius: 3px;
@@ -304,7 +308,7 @@ img{
 
 .last-articles__thumbs{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
     grid-auto-rows: auto;
     grid-gap: 0;
     background: yellow;
