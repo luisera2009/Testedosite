@@ -82,6 +82,7 @@ img{
     overflow: hidden;
     color: white;
 }
+
 .js .laptop-slider .slideshow{
     position: relative;
     width: 100%;
@@ -222,9 +223,7 @@ img{
     outline-offset: -5px;
     
 }
-.people-cards__card:hover .people-cards__avatar img{
-    transform: translateY(-50%);
-}
+
 .people-cards__card:hover .people-cards__title,
 .people-cards__card:hover .people-cards__text{
     color: #224272;
@@ -311,7 +310,6 @@ img{
     grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
     grid-auto-rows: auto;
     grid-gap: 0;
-    background: yellow;
 }
 .last-articles__thumbs img{
     display: block;
@@ -333,9 +331,6 @@ img{
     display: inline-block;
 }
 
-
-
-
 .quote-container{
     background-color: #224272;
     padding: 50px 0;
@@ -344,7 +339,7 @@ img{
 
 .quote-slideshow h2{
     color: white;
-    font-size: 30px;
+    font-size: 18px;
     font-style: italic;
     font-weight: normal;
 }
