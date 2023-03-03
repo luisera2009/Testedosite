@@ -39,7 +39,9 @@ img{
     float: left;
     text-align: right;
 }
-
+.laptop-slider h2{
+    text-align: center;
+}
 .header__nav{
     clear: left;
 }
@@ -305,17 +307,27 @@ img{
     font-weight: 400;
 }
 
-.last-articles__thumbs{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
-    grid-auto-rows: auto;
-    grid-gap: 0;
-}
-.last-articles__thumbs img{
-    display: block;
+.religiões{
+    overflow: auto;
+    width: 65%;
+    margin: auto;
+ }
+.col-2{
     width: 100%;
 }
 
+.col-2 h2 ,h4 ,p{
+    
+    color: #525050;
+}
+
+.col-2 h2 {
+    border-left: 5px solid #224272;
+}
+
+.col-2 img{
+    width: 99%;
+}
 
 .laptop-slider{
     background-color: #242a2c;
@@ -410,7 +422,7 @@ img{
     .header__nav a{
         background: white;        
     }
-    
+
     
     .people-cards{
         display: grid;
@@ -423,7 +435,7 @@ img{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 30px;
-    }
+    }  
     
     .last-articles__thumbs{
         grid-template-columns: repeat(6, 1fr);
