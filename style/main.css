@@ -312,12 +312,15 @@ img{
     width: 65%;
     margin: auto;
  }
+
+.religiões h2{
+    background-color: #e3e3e3;
+} 
 .col-2{
     width: 100%;
 }
 
-.col-2 h2 ,h4 ,p{
-    
+.col-2 h2 ,h4 ,p{ 
     color: #525050;
 }
 
